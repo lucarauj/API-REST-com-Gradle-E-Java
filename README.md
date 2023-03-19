@@ -12,6 +12,27 @@
 
 <br>
 
+### ✅ Implementações:
+
+- Adicionei uma regra para não retornar ```null``` quando o usuário não quiser alterar algum parâmetro na atualização, ou seja, só vai atualizar o parâmetro que ele informar no body:
+
+```
+        if(request.getTitle() != null) {
+            bookToUpdate.setTitle(request.getTitle());
+        }
+
+        if(request.getDescription() != null) {
+            bookToUpdate.setDescription(request.getDescription());
+        }
+
+        if(request.getAuthor() != null) {
+            bookToUpdate.setAuthor(request.getAuthor());
+        }
+```
+
+<br>
+
+
 ### 🛠 Dependências:
 
 - Spring Boot DevTools
