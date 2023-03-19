@@ -55,6 +55,12 @@
 
 <br>
 
+## Créditos 👇
+
+Vitor Medeiro - [MEDEIRO.TECH](https://www.youtube.com/@medeirotech)
+
+<br>
+
 ## Aluno
 
 Lucas Araujo
